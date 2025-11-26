@@ -29,7 +29,7 @@ function clock() {
 
     setTimeout(() => {
         clock();
-    }, 100);
+    }, 10);
 }
 
 clock();
